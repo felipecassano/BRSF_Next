@@ -1,19 +1,19 @@
-import Image from "next/image";
-import shrimp from "../imgs/shrimp.jpg";
-import shrimp2 from "../imgs/shrimp2.jpg";
-import shrimp3 from "../imgs/shrimp3.jpg";
+import Image from 'next/image';
+import shrimp from '../imgs/shrimp.jpg';
+import shrimp2 from '../imgs/shrimp2.jpg';
+import shrimp3 from '../imgs/shrimp3.jpg';
 
 function AboutUs() {
   return (
     <section
-      id="quem-somos"
-      className="mt-10 flex items-center bg-zinc-500/90 px-8 text-white max-sm:px-4"
+      id='quem-somos'
+      className='mt-10 flex items-center bg-zinc-500/90 px-8 text-white max-sm:px-4'
     >
-      <div className="grid w-full grid-cols-2 gap-10 py-20 max-sm:grid-cols-1">
+      <div className='grid w-full grid-cols-2 gap-10 py-20 max-sm:grid-cols-1'>
         {/* Texto */}
-        <div className="flex flex-col justify-center gap-10 rounded-lg bg-zinc-800 p-10 max-sm:gap-4 max-sm:p-4">
-          <h1 className="font-sans text-2xl">Brasil Seafood</h1>
-          <p className="font-snas text-start text-sm leading-6 max-sm:text-center">
+        <div className='flex flex-col justify-center gap-10 rounded-lg bg-zinc-800 p-10 max-sm:gap-4 max-sm:p-4'>
+          <h1 className='font-sans text-2xl'>Brasil Seafood</h1>
+          <p className='font-snas text-start text-sm leading-6 max-sm:text-center'>
             A Brasil Seafood é uma empresa especializada na produção e
             comercialização de alimentos congelados, com foco na qualidade e
             segurança alimentar. Com uma vasta experiência no setor, a empresa
@@ -46,39 +46,39 @@ function AboutUs() {
         </div>
 
         {/* Imagens */}
-        <div className="grid grid-cols-2 gap-6 max-sm:grid-cols-1">
+        <div className='grid grid-cols-2 gap-6 max-sm:grid-cols-1'>
           {/* Imagem superior */}
-          <div className="relative col-span-2">
+          <div className='relative col-span-2'>
             <Image
-              className="h-62 w-full rounded-xl object-cover"
+              className='h-62 w-full rounded-xl object-cover'
               src={shrimp}
-              alt="Casa 1"
+              alt='Casa 1'
             />
-            <span className="absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase">
+            <span className='absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase'>
               Camarão
             </span>
           </div>
 
           {/* Imagem inferior esquerda */}
-          <div className="relative">
+          <div className='relative'>
             <Image
-              className="h-62 w-full rounded-xl object-cover"
+              className='h-62 w-full rounded-xl object-cover'
               src={shrimp2}
-              alt="Casa 2"
+              alt='Casa 2'
             />
-            <span className="absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase">
+            <span className='absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase'>
               Camarão com molho
             </span>
           </div>
 
           {/* Imagem inferior direita */}
-          <div className="relative">
+          <div className='relative'>
             <Image
-              className="h-62 w-full rounded-xl object-cover"
+              className='h-62 w-full rounded-xl object-cover'
               src={shrimp3}
-              alt="Casa 3"
+              alt='Casa 3'
             />
-            <span className="absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase">
+            <span className='absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase'>
               Camarão frito
             </span>
           </div>
