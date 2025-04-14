@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import shrimp from '../assets/shrimp.jpg';
 import shrimp2 from '../assets/shrimp2.jpg';
 import shrimp3 from '../assets/shrimp3.jpg';
@@ -45,7 +46,7 @@ function AboutTest() {
       </div>
       <div className='grid grid-cols-[2fr_1fr] gap-6 sm:gap-8'>
         <div className='col-span-full grid *:col-start-1 *:row-start-1'>
-          <img
+          <Image
             className='h-62 w-full rounded-xl object-cover'
             src={shrimp}
             alt='Casa 1'
@@ -55,7 +56,7 @@ function AboutTest() {
           </span>
         </div>
         <div className='grid *:col-start-1 *:row-start-1'>
-          <img
+          <Image
             className='size-full rounded-xl object-cover'
             src={shrimp2}
             alt='Casa 2'
@@ -65,7 +66,7 @@ function AboutTest() {
           </span>
         </div>
         <div className='grid *:col-start-1 *:row-start-1'>
-          <img
+          <Image
             className='size-full rounded-xl object-cover'
             src={shrimp3}
             alt='Casa 3'
