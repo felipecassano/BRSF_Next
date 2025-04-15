@@ -1,17 +1,22 @@
 import seafoogImg from '../imgs/mainImg.avif';
+import Fundo3 from '../imgs/Fundo3.png';
 import Image from 'next/image';
 
 function MainContent() {
   return (
-    <main className='mt-5 px-8'>
-      <div className='relative overflow-hidden rounded-2xl px-8 pt-44 pb-8 text-white max-sm:px-4 max-sm:pt-12'>
+    <main className=''>
+      <div className='relative overflow-hidden px-8 pt-44 pb-18 text-white max-sm:px-4 max-sm:pt-12'>
         <Image
-          src={seafoogImg}
-          alt=''
-          className='absolute inset-0 -z-10 size-full object-cover'
+          src={Fundo3}
+          alt='Imagem de fundo de frutos do mar'
+          fill
+          priority
+          quality={100}
+          className='absolute inset-0 -z-10 object-cover'
         />
         <h1 className='pb-30 font-sans text-6xl text-balance'>
-          Brasil Seafood <br /> Industria e Comércio de Alimentos
+          Distribuição de <br />
+          Pescados e Frutos <br /> do Mar com <br /> Qualidade e Confiança
         </h1>
         <li className='mt-10 w-full list-none text-center font-serif'>
           <a className='' href=''>

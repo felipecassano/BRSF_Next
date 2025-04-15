@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import BrsfLogo from '../imgs/BRSF.avif'; // Importando a imagem do logo
+import BrsfLogo from '../imgs/BRSF.avif';
 import Image from 'next/image';
 import BrsfSecondLogo from '../imgs/BRSF_Logo.png';
 
