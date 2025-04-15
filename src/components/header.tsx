@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import BrsfLogo from '../imgs/BRSF.avif'; // Importando a imagem do logo
 import Image from 'next/image';
+import BrsfSecondLogo from '../imgs/BRSF_Logo.png';
 
 function Header() {
   useEffect(() => {
@@ -36,16 +37,17 @@ function Header() {
   };
   const navItemClasses = 'animate-slide-in-scale opacity-0';
   const navLinkClasses =
-    'block p-4 max-lg:hover:bg-white/10 lg:px-0 lg:py-2 lg:underline-offset-8 lg:hover:underline';
+    'block p-4 max-lg:hover:bg-white/10 lg:px-0 lg:py-2 lg:underline-offset-8 lg:hover:underline hover:text-sky';
 
   return (
-    <header className='flex items-center justify-between bg-zinc-200 p-8'>
+    <header className='bg-ocean flex items-center justify-between border-b-2 border-white/10 p-8'>
       <a href='./'>
         <Image
           priority
           width={150}
+          color='white'
           height={150}
-          src={BrsfLogo}
+          src={BrsfSecondLogo}
           alt='BRSF Logo'
           className='h-10'
         />
@@ -68,7 +70,7 @@ function Header() {
           </span>
         </button>
 
-        <ul className='flex list-none gap-10 font-sans uppercase transition-all max-lg:absolute max-lg:z-50 max-lg:w-full max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:divide-y-2 max-lg:divide-black/40 max-lg:p-10 max-lg:text-center *:max-lg:text-[20px] lg:flex lg:text-[15px]'>
+        <ul className='flex list-none gap-10 font-sans text-white uppercase transition-all max-lg:absolute max-lg:z-50 max-lg:w-full max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:divide-y-2 max-lg:divide-black/40 max-lg:p-10 max-lg:text-center *:max-lg:text-[20px] lg:flex lg:text-[15px]'>
           <li className={navItemClasses} style={{ animationDelay: '100ms' }}>
             <a className={navLinkClasses} href='#inicio'>
               Início
