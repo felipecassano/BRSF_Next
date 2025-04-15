@@ -5,7 +5,7 @@ import Image from 'next/image';
 function MainContent() {
   return (
     <main className=''>
-      <div className='relative overflow-hidden px-8 pt-44 pb-18 text-white max-sm:px-4 max-sm:pt-12'>
+      <div className='relative overflow-hidden px-8 pt-38 pb-18 text-white max-sm:px-4 max-sm:pt-12'>
         <Image
           src={Fundo3}
           alt='Imagem de fundo de frutos do mar'
@@ -14,7 +14,7 @@ function MainContent() {
           quality={100}
           className='absolute inset-0 -z-10 object-cover'
         />
-        <h1 className='block pb-25 text-5xl text-balance'>
+        <h1 className='block pb-25 text-3xl text-balance md:text-5xl'>
           <p
             style={{ animationDelay: '10ms' }}
             className='animate-slide-in-left opacity-0'
@@ -23,21 +23,21 @@ function MainContent() {
           </p>
           <p
             style={{ animationDelay: '100ms' }}
-            className='animate-slide-in-left mt-2 opacity-0'
+            className='animate-slide-in-left mt-5 opacity-0'
           >
             Pescados e Frutos
           </p>
           <p
             style={{ animationDelay: '150ms' }}
-            className='animate-slide-in-left mt-2 opacity-0'
+            className='animate-slide-in-left mt-5 opacity-0'
           >
             do Mar com
           </p>
           <p
             style={{ animationDelay: '200ms' }}
-            className='animate-slide-in-left mt-2 opacity-0'
+            className='animate-slide-in-left mt-5 opacity-0'
           >
-            Qualidade e Confiança
+            Qualidade e <br className='block sm:hidden' /> Confiança
           </p>
         </h1>
         <li className='mt-10 w-full list-none text-center font-serif'>
