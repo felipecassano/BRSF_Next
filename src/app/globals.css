@@ -8,6 +8,12 @@
   --color-verde-800: #16281f;
   --color-verde-900: #0f1c15;
   --color-verde-950: #030504;
+  --color-ocean: #002e47;
+  --color-sky: #4ba3d4;
+  --color-aqua: #4eb8b8;
+  --color-pale: #f5fafc;
+  --color-lightblue: #d2f2f7;
+  --color-darktext: #3b4c53;
 
   @keyframes slide-in-scale {
     0% {
@@ -29,7 +35,7 @@
     }
   }
   --animate-slide-in-scale: slide-in-scale 0.4s ease-out forwards;
-  --animate-fade-in: fade-in 0.4s ease-out;
+  --animate-fade-in: fade-in 0.4s ease-out forwards;
 }
 
 @utility container {
