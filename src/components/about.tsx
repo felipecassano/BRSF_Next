@@ -7,7 +7,7 @@ function AboutUs() {
   return (
     <section
       id='quem-somos'
-      className='mt-10 flex items-center bg-zinc-500/90 px-8 text-white max-sm:px-4'
+      className='mt-10 flex items-center px-8 text-white max-sm:px-4'
     >
       <div className='grid w-full grid-cols-2 gap-10 py-20 max-sm:grid-cols-1'>
         {/* Texto */}
