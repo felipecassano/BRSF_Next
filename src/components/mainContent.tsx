@@ -1,4 +1,4 @@
-import seafoogImg from '../imgs/mainImg.avif';
+// import seafoogImg from '../imgs/mainImg.avif';
 import Fundo3 from '../imgs/Fundo3.png';
 import Image from 'next/image';
 
@@ -14,9 +14,31 @@ function MainContent() {
           quality={100}
           className='absolute inset-0 -z-10 object-cover'
         />
-        <h1 className='pb-30 font-sans text-6xl text-balance'>
-          Distribuição de <br />
-          Pescados e Frutos <br /> do Mar com <br /> Qualidade e Confiança
+        <h1 className='block pb-25 text-5xl text-balance'>
+          <p
+            style={{ animationDelay: '10ms' }}
+            className='animate-slide-in-left opacity-0'
+          >
+            Distribuição de
+          </p>
+          <p
+            style={{ animationDelay: '100ms' }}
+            className='animate-slide-in-left mt-2 opacity-0'
+          >
+            Pescados e Frutos
+          </p>
+          <p
+            style={{ animationDelay: '150ms' }}
+            className='animate-slide-in-left mt-2 opacity-0'
+          >
+            do Mar com
+          </p>
+          <p
+            style={{ animationDelay: '200ms' }}
+            className='animate-slide-in-left mt-2 opacity-0'
+          >
+            Qualidade e Confiança
+          </p>
         </h1>
         <li className='mt-10 w-full list-none text-center font-serif'>
           <a className='' href=''>
