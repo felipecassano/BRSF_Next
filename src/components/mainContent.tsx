@@ -1,13 +1,14 @@
 // import seafoogImg from '../imgs/mainImg.avif';
 import Fundo3 from '../imgs/Fundo3.png';
 import Image from 'next/image';
+import FundoAlternativo from '../imgs/fundoAlternativo.jpg';
 
 function MainContent() {
   return (
     <main className=''>
       <div className='relative overflow-hidden px-8 pt-38 pb-18 text-white max-sm:px-4 max-sm:pt-12'>
         <Image
-          src={Fundo3}
+          src={FundoAlternativo}
           alt='Imagem de fundo de frutos do mar'
           fill
           priority
