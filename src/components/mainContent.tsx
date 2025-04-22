@@ -2,18 +2,19 @@
 import Fundo3 from '../imgs/Fundo3.png';
 import Image from 'next/image';
 import FundoAlternativo from '../imgs/fundoAlternativo.jpg';
+import image from '../imgs/image.png';
 
 function MainContent() {
   return (
     <main className=''>
       <div className='relative overflow-hidden px-8 pt-38 pb-18 text-white max-sm:px-4 max-sm:pt-12'>
         <Image
-          src={FundoAlternativo}
+          src={Fundo3}
           alt='Imagem de fundo de frutos do mar'
           fill
           priority
           quality={100}
-          className='absolute inset-0 -z-10 object-cover'
+          className='absolute inset-0 -z-10 object-cover brightness-[0.75] saturate-[1.2]'
         />
         <div className='relative items-start justify-center'>
           <div className='block pb-25 text-3xl text-balance md:text-5xl'>
@@ -46,11 +47,13 @@ function MainContent() {
             Entre em contato
           </button>
         </div>
-        <li className='absolute right-0 bottom-3 left-0 mt-10 w-full cursor-pointer list-none items-center justify-center text-center font-serif'>
-          <a className='' href=''>
+
+        {/* Ícone para "Saiba mais" */}
+        <div className='absolute right-0 bottom-8 left-0 flex flex-col items-center justify-center text-center font-serif'>
+          <a href='#saiba-mais' className='mb-2 hover:underline'>
             Saiba mais
           </a>
-          <div className='flex w-full animate-bounce items-center justify-center text-center'>
+          <div className='animate-bounce'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='24'
@@ -61,13 +64,13 @@ function MainContent() {
               strokeWidth='2'
               strokeLinecap='round'
               strokeLinejoin='round'
-              className='mt-2'
+              className='text-white'
             >
               <path d='M12 5v14' />
               <path d='m19 12-7 7-7-7' />
             </svg>
           </div>
-        </li>
+        </div>
       </div>
     </main>
   );

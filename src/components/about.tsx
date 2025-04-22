@@ -1,18 +1,19 @@
 import Image from 'next/image';
-import shrimp from '../imgs/shrimp.jpg';
-import shrimp2 from '../imgs/shrimp2.jpg';
-import shrimp3 from '../imgs/shrimp3.jpg';
+import freshShrimp from '../imgs/fresh_shrimp.jpg';
+import shrimpEstoque from '../imgs/shrimp_estoque.jpg';
+import producao from '../imgs/producao.jpg';
+import pescado from '../imgs/pescado.jpg';
+import man from '../imgs/man.jpg';
 
 function AboutUs() {
   return (
     <section
       id='quem-somos'
-      className='mt-10 flex items-center px-8 text-white max-sm:px-4'
+      className='flex items-center px-8 text-white max-sm:px-4'
     >
-      <div className='grid w-full grid-cols-2 gap-10 py-20 max-sm:grid-cols-1'>
-        {/* Texto */}
-        <div className='flex flex-col justify-center gap-10 rounded-lg bg-zinc-800 p-10 max-sm:gap-4 max-sm:p-4'>
-          <h1 className='font-sans text-2xl'>Brasil Seafood</h1>
+      <div className='grid w-full grid-cols-2 gap-10 py-10 max-sm:grid-cols-1'>
+        <div className='text-ocean flex flex-col justify-center gap-10 rounded-lg p-10 max-sm:gap-4 max-sm:p-4'>
+          <h1 className='font-sans text-2xl'>Quem somos</h1>
           <p className='font-snas text-start text-sm leading-6 max-sm:text-center'>
             A Brasil Seafood é uma empresa especializada na produção e
             comercialização de alimentos congelados, com foco na qualidade e
@@ -51,11 +52,11 @@ function AboutUs() {
           <div className='relative col-span-2'>
             <Image
               className='h-62 w-full rounded-xl object-cover'
-              src={shrimp}
+              src={man}
               alt='Casa 1'
             />
             <span className='absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase'>
-              Camarão
+              Alguma legenda
             </span>
           </div>
 
@@ -63,11 +64,11 @@ function AboutUs() {
           <div className='relative'>
             <Image
               className='h-62 w-full rounded-xl object-cover'
-              src={shrimp2}
+              src={producao}
               alt='Casa 2'
             />
             <span className='absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase'>
-              Camarão com molho
+              Alguma legenda
             </span>
           </div>
 
@@ -75,11 +76,11 @@ function AboutUs() {
           <div className='relative'>
             <Image
               className='h-62 w-full rounded-xl object-cover'
-              src={shrimp3}
+              src={pescado}
               alt='Casa 3'
             />
             <span className='absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase'>
-              Camarão frito
+              Alguma legenda
             </span>
           </div>
         </div>
