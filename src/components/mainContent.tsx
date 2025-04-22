@@ -14,33 +14,38 @@ function MainContent() {
           quality={100}
           className='absolute inset-0 -z-10 object-cover'
         />
-        <h1 className='block pb-25 text-3xl text-balance md:text-5xl'>
-          <p
-            style={{ animationDelay: '10ms' }}
-            className='animate-slide-in-left opacity-0'
-          >
-            Distribuição de
-          </p>
-          <p
-            style={{ animationDelay: '100ms' }}
-            className='animate-slide-in-left mt-5 opacity-0'
-          >
-            Pescados e Frutos
-          </p>
-          <p
-            style={{ animationDelay: '150ms' }}
-            className='animate-slide-in-left mt-5 opacity-0'
-          >
-            do Mar com
-          </p>
-          <p
-            style={{ animationDelay: '200ms' }}
-            className='animate-slide-in-left mt-5 opacity-0'
-          >
-            Qualidade e <br className='block sm:hidden' /> Confiança
-          </p>
-        </h1>
-        <li className='mt-10 w-full list-none text-center font-serif'>
+        <div className='relative items-start justify-center'>
+          <div className='block pb-25 text-3xl text-balance md:text-5xl'>
+            <p
+              style={{ animationDelay: '10ms' }}
+              className='animate-slide-in-left opacity-0'
+            >
+              Distribuição de
+            </p>
+            <p
+              style={{ animationDelay: '100ms' }}
+              className='animate-slide-in-left mt-5 opacity-0'
+            >
+              Pescados e Frutos
+            </p>
+            <p
+              style={{ animationDelay: '150ms' }}
+              className='animate-slide-in-left mt-5 opacity-0'
+            >
+              do Mar com
+            </p>
+            <p
+              style={{ animationDelay: '200ms' }}
+              className='animate-slide-in-left mt-5 opacity-0'
+            >
+              Qualidade e <br className='block sm:hidden' /> Confiança
+            </p>
+          </div>
+          <button className='bg-aqua animate-slide-in-left absolute bottom-8 cursor-pointer rounded-full px-6 py-3 text-white hover:bg-blue-600'>
+            Entre em contato
+          </button>
+        </div>
+        <li className='absolute right-0 bottom-3 left-0 mt-10 w-full cursor-pointer list-none items-center justify-center text-center font-serif'>
           <a className='' href=''>
             Saiba mais
           </a>
