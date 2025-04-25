@@ -3,12 +3,17 @@ import Fundo3 from '../imgs/Fundo3.png';
 import Image from 'next/image';
 import FundoAlternativo from '../imgs/fundoAlternativo.jpg';
 import image from '../imgs/image.png';
+import teste from '../imgs/teste.jpg';
 
 function MainContent() {
   return (
     <main className=''>
       <div className='relative overflow-hidden px-8 pt-38 pb-18 text-white max-sm:px-4 max-sm:pt-12'>
         <Image
+          style={{
+            objectFit: 'cover',
+            objectPosition: '50% 30%',
+          }}
           src={Fundo3}
           alt='Imagem de fundo de frutos do mar'
           fill

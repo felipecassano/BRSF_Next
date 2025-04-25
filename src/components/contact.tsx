@@ -22,15 +22,17 @@ function Contact() {
           {/* Base */}
           <div>
             <h2 className='text-ocean mb-2 font-serif text-2xl'>Base</h2>
-            <p className='text-gray-400'>
-              Rua da Mata, 123 - Floresta Nacional - RJ
+            <p className='text-gray-700'>
+              Avenida Palmeira dos Indios, 2222 , Sala V - Fortaleza - CE
+              <br />
+              <span className='text-[14px] text-gray-700'>CEP: 60.874-410</span>
             </p>
           </div>
 
           {/* Email */}
           <div>
             <h2 className='text-ocean mb-2 font-serif text-2xl'>Email</h2>
-            <p className='text-gray-400'>contato@forest.com</p>
+            <p className='text-gray-700'>Contato@brsf.com.br</p>
           </div>
 
           {/* Telefone */}
@@ -44,7 +46,7 @@ function Contact() {
                 icon={faPhone}
               />
 
-              <p className='text-gray-400'>21 97953-2470</p>
+              <p className='text-gray-700'>(85) 9 8220-9988</p>
             </div>
           </div>
         </div>
@@ -107,7 +109,7 @@ function Contact() {
         </div>
         <button
           type='submit'
-          className='hover:bg-sky mt-4 rounded-md bg-zinc-300 px-4 py-2 font-bold text-zinc-800'
+          className='hover:bg-sky mt-4 cursor-pointer rounded-md bg-zinc-300 px-4 py-2 font-bold text-zinc-800'
         >
           Enviar
         </button>

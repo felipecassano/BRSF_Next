@@ -45,14 +45,16 @@ function Header() {
         <Image
           priority
           width={150}
-          color='white'
           height={150}
           src={BrsfSecondLogo}
           alt='BRSF Logo'
-          className='h-10'
+          className='h-10 brightness-150 contrast-125 drop-shadow-[0_0_5px_rgba(255,255,255,1)] filter-[drop-shadow(0_0_10px_rgba(255,255,255,0.8))]'
+          style={{
+            filter:
+              'brightness(1.5) drop-shadow(0 0 5px white) drop-shadow(0 0 10px rgba(255,255,255,0.7))',
+          }}
         />
       </a>
-
       <nav
         className='z-40 hidden items-center max-lg:fixed max-lg:inset-0 max-lg:w-full lg:block'
         id='mobile-menu'
@@ -104,7 +106,7 @@ function Header() {
         onClick={toggleMenu}
         id='mobile-button'
       >
-        <p>Menu</p>
+        <p className='hidden sm:block'>Menu</p>
         <span className='flex h-3 w-5 flex-col justify-between *:h-0.5 *:rounded-lg *:bg-black'>
           <span
             className={`transition-transform duration-300 ${
