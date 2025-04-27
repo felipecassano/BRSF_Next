@@ -19,7 +19,7 @@ function Clients() {
         </p>
       </div>
       {/* Lista de Clientes */}
-      <div className='flex h-12 w-[92%] items-center justify-around gap-4 p-16'>
+      <div className='flex w-[100%] flex-col items-center justify-around gap-8 p-8 sm:flex-row'>
         <div className='flex flex-col items-center justify-center gap-2'>
           <Image src={Mundial} alt='Cliente 1' className='h-22 w-42' />
           <h1>Supermercado Mundial</h1>
@@ -33,7 +33,7 @@ function Clients() {
           <h1>Coco Bambu</h1>
         </div>{' '}
         <div className='flex flex-col items-center justify-center'>
-          <Image src={ZonaSul} alt='Cliente 3' className='h-20 w-22' />
+          <Image src={ZonaSul} alt='Cliente 3' className='h-22 w-22' />
           <h1>Mercado Zona Sul</h1>
         </div>
       </div>
