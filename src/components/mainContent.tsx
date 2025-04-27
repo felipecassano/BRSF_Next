@@ -22,7 +22,7 @@ function MainContent() {
           className='absolute inset-0 -z-10 object-cover brightness-[0.75] saturate-[1.2]'
         />
         <div className='relative items-start justify-center'>
-          <div className='block pb-25 text-3xl text-balance md:text-5xl'>
+          <div className='md:text-5x text-clamp block pb-25 text-balance'>
             <p
               style={{ animationDelay: '10ms' }}
               className='animate-slide-in-left opacity-0'
@@ -31,21 +31,21 @@ function MainContent() {
             </p>
             <p
               style={{ animationDelay: '100ms' }}
-              className='animate-slide-in-left mt-5 opacity-0'
+              className='animate-slide-in-left mt-3 opacity-0'
             >
               Pescados e Frutos
             </p>
             <p
               style={{ animationDelay: '150ms' }}
-              className='animate-slide-in-left mt-5 opacity-0'
+              className='animate-slide-in-left mt-3 opacity-0'
             >
               do Mar com
             </p>
             <p
               style={{ animationDelay: '200ms' }}
-              className='animate-slide-in-left mt-5 opacity-0'
+              className='animate-slide-in-left mt-3 flex flex-col items-start gap-2 opacity-0 md:flex-row md:items-center'
             >
-              Qualidade e <br className='block sm:hidden' /> Confiança
+              Qualidade e <span className='max-md:mt-1'>Confiança</span>
             </p>
           </div>
           <button className='bg-aqua animate-slide-in-left absolute bottom-8 cursor-pointer rounded-full px-6 py-3 text-white hover:bg-blue-600'>
@@ -55,7 +55,7 @@ function MainContent() {
 
         {/* Ícone para "Saiba mais" */}
         <div className='absolute right-0 bottom-8 left-0 flex flex-col items-center justify-center text-center font-serif'>
-          <a href='#saiba-mais' className='mb-2 hover:underline'>
+          <a href='#quem-somos' className='mb-2 hover:underline'>
             Saiba mais
           </a>
           <div className='animate-bounce'>

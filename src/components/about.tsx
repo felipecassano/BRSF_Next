@@ -14,7 +14,7 @@ function AboutUs() {
       <div className='grid w-full grid-cols-2 gap-10 py-10 max-sm:grid-cols-1'>
         <div className='text-ocean flex flex-col justify-center gap-10 rounded-lg p-10 max-sm:gap-4 max-sm:p-4'>
           <h1 className='font-sans text-2xl'>Quem somos</h1>
-          <p className='font-snas text-start text-sm leading-6 max-sm:text-center'>
+          <p className='font-snas text-start text-sm leading-6 max-sm:text-start'>
             A Brasil Seafood é uma empresa especializada na produção e
             comercialização de alimentos congelados, com foco na qualidade e
             segurança alimentar. Com uma vasta experiência no setor, a empresa
@@ -49,9 +49,9 @@ function AboutUs() {
         {/* Imagens */}
         <div className='grid grid-cols-2 gap-6 max-sm:grid-cols-1'>
           {/* Imagem superior */}
-          <div className='relative col-span-2'>
+          <div className='relative col-span-2 max-sm:col-span-1'>
             <Image
-              className='h-62 w-full rounded-xl object-cover'
+              className='h-62 w-full rounded-xl object-cover max-sm:h-48'
               src={man}
               alt='Casa 1'
             />
@@ -63,7 +63,7 @@ function AboutUs() {
           {/* Imagem inferior esquerda */}
           <div className='relative'>
             <Image
-              className='h-62 w-full rounded-xl object-cover'
+              className='h-62 w-full rounded-xl object-cover max-sm:h-48'
               src={producao}
               alt='Casa 2'
             />
@@ -75,7 +75,7 @@ function AboutUs() {
           {/* Imagem inferior direita */}
           <div className='relative'>
             <Image
-              className='h-62 w-full rounded-xl object-cover'
+              className='h-62 w-full rounded-xl object-cover max-sm:h-48'
               src={pescado}
               alt='Casa 3'
             />

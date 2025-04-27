@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 
 @theme {
+  --text-clamp: clamp(1.75rem, 5vw, 3.5rem);
+  --text-clamp--line-height: clamp(2rem, 5.5vw, 4rem);
   --color-verde-200: #acef75;
   --color-verde-300: #91ee77;
   --color-verde-400: #17e880;

@@ -72,7 +72,7 @@ function Header() {
           </span>
         </button>
 
-        <ul className='flex list-none gap-10 font-sans text-white uppercase transition-all max-lg:absolute max-lg:z-50 max-lg:w-full max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:divide-y-2 max-lg:divide-black/40 max-lg:p-10 max-lg:text-center *:max-lg:text-[20px] lg:flex lg:text-[15px]'>
+        <ul className='flex list-none gap-10 font-normal text-white uppercase transition-all max-lg:absolute max-lg:z-50 max-lg:w-full max-lg:flex-col max-lg:justify-center max-lg:gap-2 max-lg:divide-y-2 max-lg:divide-black/40 max-lg:p-10 max-lg:text-center *:max-lg:text-[20px] lg:flex lg:text-[15px]'>
           <li className={navItemClasses} style={{ animationDelay: '100ms' }}>
             <a className={navLinkClasses} href='#inicio'>
               Início

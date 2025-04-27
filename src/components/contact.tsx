@@ -7,7 +7,7 @@ function Contact() {
   return (
     <section
       id='contato'
-      className='bg-lightblue container mb-12 grid gap-8 px-8 py-16 text-white sm:mb-16 lg:grid-cols-2 lg:px-16'
+      className='container mb-12 grid gap-8 px-8 py-16 text-white sm:mb-16 lg:grid-cols-2 lg:px-16'
     >
       {/* Informações de Contato */}
       <div className='flex flex-col gap-8'>
