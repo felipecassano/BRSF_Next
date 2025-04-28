@@ -15,7 +15,7 @@ function SocialMedia() {
           Conheça nossas redes sociais
         </h2>
 
-        <div className='mb-6 flex justify-center gap-8'>
+        <div className='mb-6 flex justify-center gap-3 md:gap-8'>
           {/* Facebook */}
           <a
             className='bg-ocean hover:bg-sky flex h-8 w-8 items-center justify-center rounded-full p-2'
