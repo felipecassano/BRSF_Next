@@ -19,23 +19,11 @@ function Clients() {
         </p>
       </div>
       {/* Lista de Clientes */}
-      <div className='flex w-[100%] flex-col items-center justify-around gap-8 p-8 sm:flex-row'>
-        <div className='flex flex-col items-center justify-center gap-2'>
-          <Image src={Mundial} alt='Cliente 1' className='h-22 w-42' />
-          <h1>Supermercado Mundial</h1>
-        </div>
-        <div className='flex flex-col items-center justify-center'>
-          <Image src={Pinheiro} alt='Cliente 2' className='h-22 w-22' />
-          <h1>Supermercado Pinheiro</h1>
-        </div>
-        <div className='flex flex-col items-center justify-center'>
-          <Image src={CocoBambu} alt='Cliente 3' className='h-22 w-22' />
-          <h1>Coco Bambu</h1>
-        </div>{' '}
-        <div className='flex flex-col items-center justify-center'>
-          <Image src={ZonaSul} alt='Cliente 3' className='h-22 w-22' />
-          <h1>Mercado Zona Sul</h1>
-        </div>
+      <div className='flex w-[100%] flex-col items-center justify-around gap-8 p-2 sm:flex-row'>
+        <Image src={Mundial} alt='Cliente 1' className='h-22 w-42' />
+        <Image src={Pinheiro} alt='Cliente 2' className='h-22 w-26' />
+        <Image src={CocoBambu} alt='Cliente 3' className='h-26 w-28' />
+        <Image src={ZonaSul} alt='Cliente 3' className='h-22 w-22' />
       </div>
     </section>
   );
