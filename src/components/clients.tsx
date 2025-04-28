@@ -3,6 +3,7 @@ import Pinheiro from '../imgs/parceiros/pinheiro.jpeg';
 import Mundial from '../imgs/parceiros/Mundial.png';
 import CocoBambu from '../imgs/parceiros/CocoBambu.png';
 import ZonaSul from '../imgs/parceiros/ZonaSul.png';
+import parme from '../imgs/parceiros/parme.jpg';
 
 function Clients() {
   return (
@@ -24,6 +25,7 @@ function Clients() {
         <Image src={Pinheiro} alt='Cliente 2' className='h-22 w-26' />
         <Image src={CocoBambu} alt='Cliente 3' className='h-26 w-28' />
         <Image src={ZonaSul} alt='Cliente 3' className='h-22 w-22' />
+        <Image src={parme} alt='Cliente 3' className='h-22 w-22' />
       </div>
     </section>
   );
