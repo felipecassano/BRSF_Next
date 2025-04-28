@@ -9,9 +9,9 @@ function Clients() {
   return (
     <section
       id='clientes'
-      className='mt-4 mb-4 flex w-full flex-col items-center justify-center py-15 text-black max-sm:px-4'
+      className='mt-4 flex w-full flex-col items-center justify-center py-8 text-black max-sm:px-4'
     >
-      <div className='mb-6 flex flex-col items-center justify-center gap-4'>
+      <div className='mb-6 flex flex-col items-center justify-center gap-4 px-8'>
         <h2 className='text-ocean text-3xl font-bold'>Clientes</h2>
         <p className='text-ocean text-sm'>
           A Brasil Seafood tem o orgulho de atender a uma ampla gama de

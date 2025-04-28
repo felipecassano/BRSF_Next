@@ -4,6 +4,7 @@ import Contact from '@/components/contact';
 import Header from '@/components/header';
 import MainContent from '@/components/mainContent';
 import Mission from '@/components/mission';
+import SocialMedia from '@/components/socialMedia';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Mission />
       <Clients />
       <Contact />
+      <SocialMedia />
     </div>
   );
 }
