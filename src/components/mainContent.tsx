@@ -45,16 +45,17 @@ function MainContent() {
               style={{ animationDelay: '200ms' }}
               className='animate-slide-in-left mt-3 flex flex-col items-start gap-2 opacity-0 md:flex-row md:items-center'
             >
-              Qualidade e <span className='max-md:mt-1'>Confiança</span>
+              Qualidade e{' '}
+              <span className='max-md:mt-1 max-md:ml-1'>Confiança</span>
             </p>
           </div>
-          <button className='bg-aqua animate-slide-in-left absolute bottom-8 cursor-pointer rounded-full px-6 py-3 text-white hover:bg-blue-600'>
+          <button className='bg-aqua animate-slide-in-left absolute bottom-8 cursor-pointer rounded-full px-4 py-2 text-sm text-white transition duration-300 ease-in-out hover:bg-blue-600 sm:w-auto sm:px-6 sm:py-3 sm:text-base'>
             Entre em contato
           </button>
         </div>
 
         {/* Ícone para "Saiba mais" */}
-        <div className='absolute right-0 bottom-8 left-0 flex flex-col items-center justify-center text-center font-serif'>
+        <div className='absolute right-0 bottom-1 left-0 flex flex-col items-center justify-center text-center font-serif'>
           <a href='#quem-somos' className='mb-2 hover:underline'>
             Saiba mais
           </a>

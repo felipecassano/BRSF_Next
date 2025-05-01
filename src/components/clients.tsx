@@ -21,8 +21,8 @@ function Clients() {
       </div>
       {/* Lista de Clientes */}
       <div className='flex w-[100%] flex-col items-center justify-around gap-8 p-2 sm:flex-row'>
-        <Image src={Mundial} alt='Cliente 1' className='h-22 w-42' />
-        <Image src={Pinheiro} alt='Cliente 2' className='h-22 w-26' />
+        <Image src={Mundial} alt='Cliente 1' className='h-18 w-42' />
+        <Image src={Pinheiro} alt='Cliente 2' className='h-22 w-23' />
         <Image src={CocoBambu} alt='Cliente 3' className='h-26 w-28' />
         <Image src={ZonaSul} alt='Cliente 3' className='h-22 w-22' />
         <Image src={parme} alt='Cliente 3' className='h-22 w-22' />
