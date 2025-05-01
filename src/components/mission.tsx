@@ -4,7 +4,10 @@ import { faFlag } from '@fortawesome/free-solid-svg-icons';
 
 function Mission() {
   return (
-    <section className='bg-lightblue flex flex-col items-center justify-around p-4 text-white lg:flex-row'>
+    <section
+      id='missao'
+      className='bg-lightblue flex flex-col items-center justify-around p-4 text-white lg:flex-row'
+    >
       <div className='ml-4 flex h-30 w-30 items-center justify-center rounded-full bg-white lg:ml-30'>
         <FontAwesomeIcon
           icon={faFlag}
