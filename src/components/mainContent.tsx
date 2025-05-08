@@ -4,7 +4,11 @@ import Image from 'next/image';
 // import FundoAlternativo from '../imgs/fundoAlternativo.jpg';
 // import image from '../imgs/image.png';
 // import teste from '../imgs/teste.jpg';
-import clienteFundo from '../imgs/fundoAlternativo2.jpg';
+import clienteFundo from '../imgs/fundoAlternativo2.JPG';
+
+// Add a declaration file for the image module
+// Create a file named `global.d.ts` in your `src` or `types` folder (e.g., `/D:/workplace/Brsf/BRSF_Next/src/types/global.d.ts`)
+// Add the following content to the `global.d.ts` file:
 
 function MainContent() {
   return (
