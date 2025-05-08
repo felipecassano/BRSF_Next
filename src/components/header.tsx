@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import BrsfLogo from '../imgs/BRSF.avif';
 import Image from 'next/image';
 import BrsfSecondLogo from '../imgs/BRSF_Logo.png';
+import whiteLogo from '../imgs/whiteLogo.png';
 
 function Header() {
   useEffect(() => {
@@ -46,13 +47,9 @@ function Header() {
           priority
           width={150}
           height={150}
-          src={BrsfSecondLogo}
+          src={whiteLogo}
           alt='BRSF Logo'
-          className='h-10 brightness-150 contrast-125 drop-shadow-[0_0_5px_rgba(255,255,255,1)] filter-[drop-shadow(0_0_10px_rgba(255,255,255,0.8))]'
-          style={{
-            filter:
-              'brightness(1.5) drop-shadow(0 0 5px white) drop-shadow(0 0 10px rgba(255,255,255,0.7))',
-          }}
+          className=''
         />
       </a>
       <nav
