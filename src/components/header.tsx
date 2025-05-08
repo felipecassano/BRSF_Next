@@ -1,8 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react';
-import BrsfLogo from '../imgs/BRSF.avif';
+// import BrsfLogo from '../imgs/BRSF.avif';
 import Image from 'next/image';
-import BrsfSecondLogo from '../imgs/BRSF_Logo.png';
+// import BrsfSecondLogo from '../imgs/BRSF_Logo.png';
 import whiteLogo from '../imgs/whiteLogo.png';
 
 function Header() {

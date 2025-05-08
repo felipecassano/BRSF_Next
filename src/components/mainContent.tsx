@@ -1,10 +1,10 @@
 // import seafoogImg from '../imgs/mainImg.avif';
-import Fundo3 from '../imgs/Fundo3.png';
+// import Fundo3 from '../imgs/Fundo3.png';
 import Image from 'next/image';
-import FundoAlternativo from '../imgs/fundoAlternativo.jpg';
-import image from '../imgs/image.png';
-import teste from '../imgs/teste.jpg';
-import clienteFundo from '../imgs/clienteFundo.jpg';
+// import FundoAlternativo from '../imgs/fundoAlternativo.jpg';
+// import image from '../imgs/image.png';
+// import teste from '../imgs/teste.jpg';
+import clienteFundo from '../imgs/fundoAlternativo.jpg';
 
 function MainContent() {
   return (
