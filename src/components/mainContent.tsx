@@ -4,7 +4,7 @@ import Image from 'next/image';
 // import FundoAlternativo from '../imgs/fundoAlternativo.jpg';
 // import image from '../imgs/image.png';
 // import teste from '../imgs/teste.jpg';
-import clienteFundo from '../imgs/fundoAlternativo.jpg';
+import clienteFundo from '../imgs/fundoAlternativo2.jpg';
 
 function MainContent() {
   return (
