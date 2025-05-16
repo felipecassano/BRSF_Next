@@ -1,7 +1,5 @@
 import Image from 'next/image';
-import freshShrimp from '../imgs/fresh_shrimp.jpg';
-import shrimpEstoque from '../imgs/shrimp_estoque.jpg';
-import producao from '../imgs/producao.jpg';
+import shutterstock from '../imgs/shutterstock.jpg';
 import pescado from '../imgs/pescado.jpg';
 import man from '../imgs/man.jpg';
 
@@ -55,21 +53,15 @@ function AboutUs() {
               src={man}
               alt='Casa 1'
             />
-            <span className='absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase'>
-              Alguma legenda
-            </span>
           </div>
 
           {/* Imagem inferior esquerda */}
           <div className='relative'>
             <Image
               className='h-62 w-full rounded-xl object-cover max-sm:h-48'
-              src={producao}
+              src={shutterstock}
               alt='Casa 2'
             />
-            <span className='absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase'>
-              Alguma legenda
-            </span>
           </div>
 
           {/* Imagem inferior direita */}
@@ -79,9 +71,6 @@ function AboutUs() {
               src={pescado}
               alt='Casa 3'
             />
-            <span className='absolute top-2 right-2 rounded-full bg-zinc-800 px-4 py-2 text-sm/none text-white uppercase'>
-              Alguma legenda
-            </span>
           </div>
         </div>
       </div>

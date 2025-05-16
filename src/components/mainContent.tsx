@@ -1,19 +1,10 @@
-// import seafoogImg from '../imgs/mainImg.avif';
-// import Fundo3 from '../imgs/Fundo3.png';
 import Image from 'next/image';
-// import FundoAlternativo from '../imgs/fundoAlternativo.jpg';
-// import image from '../imgs/image.png';
-// import teste from '../imgs/teste.jpg';
-import clienteFundo from '../imgs/fundoAlternativo2.JPG';
-
-// Add a declaration file for the image module
-// Create a file named `global.d.ts` in your `src` or `types` folder (e.g., `/D:/workplace/Brsf/BRSF_Next/src/types/global.d.ts`)
-// Add the following content to the `global.d.ts` file:
+import clienteFundo from '../imgs/mainBackground.JPG';
 
 function MainContent() {
   return (
     <main className=''>
-      <div className='relative overflow-hidden px-8 pt-38 pb-18 text-white max-sm:px-4 max-sm:pt-12'>
+      <div className='relative overflow-hidden px-8 pt-38 pb-18 text-white max-sm:px-4 max-sm:pt-12 md:pb-38'>
         <Image
           style={{
             objectFit: 'cover',
@@ -26,6 +17,7 @@ function MainContent() {
           quality={100}
           className='absolute inset-0 -z-10 object-cover brightness-[0.75] saturate-[1.2]'
         />
+        <div className='absolute inset-0 -z-5 bg-black/30'></div>
         <div className='relative items-start justify-center'>
           <div className='md:text-5x text-clamp block pb-25 text-balance'>
             <p
@@ -54,7 +46,7 @@ function MainContent() {
               <span className='max-md:mt-1 max-md:ml-1'>Confiança</span>
             </p>
           </div>
-          <button className='bg-aqua animate-slide-in-left absolute bottom-8 cursor-pointer rounded-full px-4 py-2 text-sm text-white transition duration-300 ease-in-out hover:bg-blue-600 sm:w-auto sm:px-6 sm:py-3 sm:text-base'>
+          <button className='bg-aqua animate-slide-in-left hover:bg-ocean absolute bottom-8 cursor-pointer rounded-full px-4 py-2 text-sm text-white transition duration-300 ease-in-out sm:w-auto sm:px-6 sm:py-3 sm:text-base'>
             Entre em contato
           </button>
         </div>
