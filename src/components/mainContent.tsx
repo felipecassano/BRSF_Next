@@ -15,9 +15,9 @@ function MainContent() {
           fill
           priority
           quality={100}
-          className='absolute inset-0 -z-10 object-cover brightness-[0.75] saturate-[1.2]'
+          className='absolute inset-0 -z-10 brightness-[0.75] saturate-[1.2]'
         />
-        <div className='absolute inset-0 -z-5 bg-black/30'></div>
+        <div className='absolute inset-0 -z-5 bg-black/35'></div>
         <div className='relative items-start justify-center'>
           <div className='md:text-5x text-clamp block pb-25 text-balance'>
             <p

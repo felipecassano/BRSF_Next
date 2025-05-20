@@ -11,8 +11,8 @@ function AboutUs() {
     >
       <div className='grid w-full grid-cols-2 gap-10 py-10 max-sm:grid-cols-1'>
         <div className='text-ocean flex flex-col justify-center gap-10 rounded-lg p-10 max-sm:gap-4 max-sm:p-4'>
-          <h1 className='font-sans text-2xl font-semibold'>Quem somos</h1>
-          <p className='font-snas text-start text-sm leading-6 max-sm:text-start'>
+          <h1 className='font-sans text-5xl font-semibold'>Quem somos</h1>
+          <p className='text-md text-start font-sans leading-6 max-sm:text-start'>
             A Brasil Seafood é uma empresa especializada na produção e
             comercialização de alimentos congelados, com foco na qualidade e
             segurança alimentar. Com uma vasta experiência no setor, a empresa

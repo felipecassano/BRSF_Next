@@ -11,63 +11,63 @@ function SocialMedia() {
   return (
     <section className='bg-white px-10 pb-12'>
       <div className='px-4w container mx-auto border-t-1 border-zinc-400 text-center'>
-        <h2 className='text-ocean mt-8 mb-8 text-3xl font-bold'>
+        <h2 className='text-ocean mt-8 mb-4 text-3xl font-bold sm:text-4xl'>
           Conheça nossas redes sociais
         </h2>
 
         <div className='mb-6 flex justify-center gap-3 md:gap-8'>
           {/* Facebook */}
           <a
-            className='bg-ocean hover:bg-sky flex h-8 w-8 items-center justify-center rounded-full p-2'
+            className='bg-ocean hover:bg-sky flex h-8 w-8 items-center justify-center rounded-full p-2 sm:h-12 sm:w-12'
             href='https://facebook.com'
           >
             <FontAwesomeIcon
               icon={faFacebookF}
               size='2x'
-              width={20}
-              height={20}
+              width={30}
+              height={30}
               color='white'
             />
           </a>
 
           {/* LinkedIn */}
           <a
-            className='bg-ocean hover:bg-sky flex h-8 w-8 items-center justify-center rounded-full p-2'
+            className='bg-ocean hover:bg-sky flex h-8 w-8 items-center justify-center rounded-full p-2 sm:h-12 sm:w-12'
             href='https://facebook.com'
           >
             <FontAwesomeIcon
               icon={faLinkedinIn}
               size='2x'
-              width={20}
-              height={20}
+              width={30}
+              height={30}
               color='white'
             />
           </a>
 
           {/* YouTube */}
           <a
-            className='bg-ocean hover:bg-sky flex h-8 w-8 items-center justify-center rounded-full p-2'
+            className='bg-ocean hover:bg-sky flex h-8 w-8 items-center justify-center rounded-full p-2 sm:h-12 sm:w-12'
             href='https://facebook.com'
           >
             <FontAwesomeIcon
               icon={faYoutube}
               size='2x'
-              width={20}
-              height={20}
+              width={30}
+              height={30}
               color='white'
             />
           </a>
 
           {/* Instagram */}
           <a
-            className='bg-ocean hover:bg-sky flex h-8 w-8 items-center justify-center rounded-full p-2'
+            className='bg-ocean hover:bg-sky flex h-8 w-8 items-center justify-center rounded-full p-2 sm:h-12 sm:w-12'
             href='https://facebook.com'
           >
             <FontAwesomeIcon
               icon={faInstagram}
               size='2x'
-              width={20}
-              height={20}
+              width={30}
+              height={30}
               color='white'
             />
           </a>
@@ -81,8 +81,8 @@ function SocialMedia() {
             <FontAwesomeIcon
               icon={faInstagram}
               size='2x'
-              width={20}
-              height={20}
+              width={30}
+              height={30}
               color='white'
             />
 
